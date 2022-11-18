@@ -1,4 +1,3 @@
-package org.example
 package chapter2
 
 @main def EchoArgs(args: String*) : Unit =

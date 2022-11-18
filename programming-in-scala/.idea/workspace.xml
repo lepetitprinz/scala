@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c71e924-50e0-4e23-a47d-951b64696f83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/programming-in-scala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/programming-in-scala-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/programming-in-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/programming-in-scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d3ea3aa371a5ba8adc25$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d3ea3aa371a5ba8adc25.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d3ea3aa371a5ba8adc25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45a42503c6f18fe54bad$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45a42503c6f18fe54bad.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45a42503c6f18fe54bad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$465f947d7a850dd25ec6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$465f947d7a850dd25ec6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$465f947d7a850dd25ec6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49f351c24d7d61dfbd71$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49f351c24d7d61dfbd71.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49f351c24d7d61dfbd71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6e03cc0a5642ae102540$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6e03cc0a5642ae102540.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6e03cc0a5642ae102540.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/echoArgs.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/forArgs.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/iterateWithForLoop.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/loopWithWhile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/scalaScript.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter2/workSheet.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter3/arrayMethod.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter3/funtionalStyle.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter3/listMethod.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter3/mapForYield.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter3/tupleSetMap.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/testWorkSheet.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log1230145842028192842.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/ch3/arrayMethod.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/ch3/funtionalStyle.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/ch3/listMethod.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/ch3/mapForYield.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/ch3/tupleSetMap.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/EchoArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/EchoArgs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/ForArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/ForArgs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/IterateWithForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/IterateWithForLoop.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/LoopWithWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/LoopWithWhile.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/ScalaScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/ScalaScript.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/echoArgs$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/echoArgs$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/echoArgs$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/forArgs$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/forArgs$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/forArgs$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/iterateWithForLoop$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/iterateWithForLoop$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/iterateWithForLoop$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/loopWithWhile$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/loopWithWhile$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/loopWithWhile$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/scalaScript$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/scalaScript$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/scalaScript$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/chapter2/workSheet.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/org/example/worksheet.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateSbtClassifiers/_global/streams/out" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Hf9hzuvkeksOerPZjXi4xRlhLJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MTConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c71e924-50e0-4e23-a47d-951b64696f83" name="Changes" comment="" />
+      <created>1668665393287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668665393287</updated>
+      <workItem from="1668665394584" duration="600000" />
+      <workItem from="1668666622609" duration="1559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

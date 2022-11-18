@@ -1,4 +1,3 @@
-package org.example
 package chapter2
 
 @main def LoopWithWhile(args: String*): Unit =
