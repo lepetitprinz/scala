@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+[debug] Load.defaultLoad until apply took 113.386125ms
+[debug]           Load.loadUnit: plugins took 111.817708ms
+[debug]           Load.loadUnit: defsScala took 1.875167ms
+[debug] [Loading] Scanning directory /Users/yjkim-studio/src/scala/programming-in-scala/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/yjkim-studio/src/scala/programming-in-scala/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.997375 ms
+[debug]               Load.resolveProject(programming-in-scala-build) took 61.138125ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id programming-in-scala-build, base: /Users/yjkim-studio/src/scala/programming-in-scala/project, plugins: List(<none>))) took 123.2335ms
+[debug] [Loading] Done in /Users/yjkim-studio/src/scala/programming-in-scala/project, returning: (programming-in-scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 175.477959ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.120708ms
+[debug]         Load.loadUnit(file:/Users/yjkim-studio/src/scala/programming-in-scala/project/, ...) took 308.612583ms
+[debug]       Load.apply: load took 849.512666ms
+[debug]       Load.apply: resolveProjects took 17.160417ms
+[debug]       Load.apply: finalTransforms took 149.694458ms
+[debug]       Load.apply: config.delegates took 10.31875ms
+[debug]       Load.apply: Def.make(settings)... took 1093.323333ms
+[debug]       Load.apply: structureIndex took 269.7415ms
+[debug]       Load.apply: mkStreams took 1.293042ms
+[info] loading project definition from /Users/yjkim-studio/src/scala/programming-in-scala/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6236.63675ms
+[debug]     Load.loadUnit: defsScala took 0.003167ms
+[debug] [Loading] Scanning directory /Users/yjkim-studio/src/scala/programming-in-scala
+[debug]       Load.loadUnit: mkEval took 11.428291ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.13725 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 11.717584ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/yjkim-studio/src/scala/programming-in-scala, plugins: List(<none>))) took 23.241167ms
+[debug] [Loading] Done in /Users/yjkim-studio/src/scala/programming-in-scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4793.282875ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.041167ms
+[debug]   Load.loadUnit(file:/Users/yjkim-studio/src/scala/programming-in-scala/, ...) took 11045.490917ms
+[debug] Load.apply: load took 11093.731375ms
+[debug] Load.apply: resolveProjects took 0.779292ms
+[debug] Load.apply: finalTransforms took 27.01475ms
+[debug] Load.apply: config.delegates took 4.412334ms
+[debug] Load.apply: Def.make(settings)... took 374.652584ms
+[debug] Load.apply: structureIndex took 68.631125ms
+[debug] Load.apply: mkStreams took 0.005875ms
+[info] set current project to programming-in-scala (in build file:/Users/yjkim-studio/src/scala/programming-in-scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/yjkim-studio/.sbt/1.0/server/7dd05dfce4a964fbd180/sock
+[debug] Writing bsp connection file
+[info] started sbt server
