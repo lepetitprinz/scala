@@ -1,22 +1,3 @@
-class Rational1(n: Int, d: Int):
-  println(s"Created $n / $d")
-
-new Rational(1, 2)
-
-// Reimplementing the toString method
-class Rational2(n: Int, d: Int):
-  override def toString = s"$n/$d"
-
-val x = new Rational2(1, 3)
-val y = new Rational2(5, 7)
-
-// Check preconditions
-class Rational3(n: Int, d: Int):
-  require(d != 0)
-  override def toString = s"$n/$d"
-
-val z = new Rational3(1, 0)
-
 class Rational (n: Int, d: Int):
   require(d != 0) // Check preconditions
 
@@ -65,3 +46,12 @@ x1 + (x1 * y1)
 
 x1 + z1
 x1 * z1
+
+extension (x: Int)
+  def + (y: Rational) = Rational(x) + y
+  def - (y: Rational) = Rational(x) - y
+  def * (y: Rational) = Rational(x) * y
+  def / (y: Rational) = Rational(x) / y
+
+val w = Rational(2, 3)
+2 * w
