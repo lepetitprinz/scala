@@ -130,3 +130,92 @@ def urlFor(path: String) =
   try new URL(path)
   catch case e: MalformedURLException =>
     new URL("http://www.scala-lang.org")
+
+// Match expressions
+val firstArg = if !args.isEmpty then args(0) else ""
+firstArg match
+  case "salt" => println("pepper")
+  case "chips" => println("salsa")
+  case "eggs" => println("bacon")
+  case _ => println("huh?")
+
+// match expression that yields a value
+val firstArg2 = if !args.isEmpty then args(0) else ""
+val friend =
+  firstArg2 match
+    case "salt" => "pepper"
+    case "chips" => "salsa"
+    case "eggs" => "bacon"
+    case _ => "huh?"
+println(friend)
+
+// Looping withoud break or continue
+var i = 0
+var foundIt = false
+
+while i < args.length && !foundIt do
+  if !args(i).startsWith("-") then
+    if args(i).endsWith(".scala") then
+      foundIt = true
+    else
+      i += 1
+  else
+    i += 1
+
+// Recursive alternative to looping with vars
+def searchFrom(i: Int): Int =
+  if i >= args.length then -1
+  else if args(i).startsWith("-") then searchFrom(i + 1)
+  else if args(i).endsWith(".scala") then i
+  else searchFrom(i + 1)
+val cnt = searchFrom(0)
+
+// Variable scope
+def printMultiTable() =
+  var i = 1
+  // only i in score here
+  while i <= 10 do
+    var j = 1
+    // both i and j in scope here
+    while j <= 10 do
+      val prod = (i * j).toString
+      // i, j and prod in scope here
+      var k = prod.length
+      //i, j , prod, and k in scope here
+      while k < 4 do
+        print(" ")
+        k += 1
+      print(prod)
+      j += 1
+    // i and j still in scope; prod and k out of scope
+    println()
+    i += 1
+  // i still in scope; j, prod, and k out of scope
+
+val a = 1
+if a == 1 then
+  val a = 2
+  println(a)
+println(a)
+
+
+// Refactoring imperative-style code
+// Returns a row as a sequence
+def makeRowSeq(row: Int) =
+  for col <- 1 to 10 yield
+    val prod = (row * col).toString
+    val padding = " " * (4 - prod.length)
+    padding + prod
+
+// Returns a row as a string
+def makeRow(row: Int) = makeRowSeq(row).mkString
+
+// Returns table as a string with one row per line
+def multiTable() =
+  val tableSeq = // a sequence of row strings
+    for row <- 1 to 10
+      yield makeRow(row)
+  tableSeq.mkString("\n")
+
+val result = multiTable()
+print(result)
