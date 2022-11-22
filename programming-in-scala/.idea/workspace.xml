@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c71e924-50e0-4e23-a47d-951b64696f83" name="Changes" comment="" />
+    <list default="true" id="0c71e924-50e0-4e23-a47d-951b64696f83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter7/ExceptionHandling.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter7/ForLoop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter7/MatchExpression.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter7/RefactorImperativeStyle.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter7/WhileLoop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/Closure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/FirstClassFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/FunctionsAndClosures.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/LocalFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/PartiallyAppliedFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/PlaceholderSyntax.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/SingleAbstractMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/SpecialFunctionCallForm.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter8/TailRecursion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter7/BuiltInControlStructure.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter7/BuiltInControlStructure.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/chapter7/BuiltInControlStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.0.0/classes/chapter7/BuiltInControlStructure.tasty" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +110,7 @@
       <workItem from="1668851897454" duration="4987000" />
       <workItem from="1668928521283" duration="6668000" />
       <workItem from="1669014278394" duration="6449000" />
+      <workItem from="1669093445388" duration="9790000" />
     </task>
     <servers />
   </component>
