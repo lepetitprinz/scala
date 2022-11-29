@@ -8,6 +8,7 @@
 #
 # see also test/files/.gitignore
 #
+.DS_Store
 
 #
 # JARs aren't checked in, they are fetched by sbt
