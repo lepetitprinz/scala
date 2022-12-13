@@ -1,16 +1,26 @@
-val n = 5
-val m = 4
-val arr = List(2, 8, 10, 7)
-val arrSorted = arr.sorted
+import scala.collection.mutable
+import scala.math.BigDecimal
 
-var max_price = 0
-var max_sales = 0
-val range = 0 until m
+val n = 3
+val m = 2
+val k = 2
 
-for i <- range do
-  val sales = arrSorted(i) * math.min(n, m - i)
-  if (sales > max_sales) then
-    max_price = arrSorted(i)
-    max_sales = sales
+var scores = mutable.Map.empty[Int, Double]
+for i <- 0 until m do
+  val data = Array("3", "1.0", "2", "0.5", "1", "0.2")
+  for j <- 0 until n do
+    val person = data(j * 2).toInt
+    val score = data(j * 2 + 1).toDouble
 
-printf("%d %d", max_price, max_sales)
+    if i == 0 then
+      scores += (person -> score)
+    else
+      val max_score = scores(person)
+      if score > max_score then
+        scores += (person -> score)
+
+val max_scores = scores.values
+val result = max_scores.slice(0, k).sum
+val resultRoundUp = BigDecimal(result).setScale(1, BigDecimal.RoundingMode.HALF_UP).toDouble
+println(f"$resultRoundUp%.1f")
+

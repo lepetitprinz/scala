@@ -68,3 +68,6 @@ jitwatch.out
 project/**/metals.sbt
 
 .bsp
+*.class
+*.cache
+.DS_Store
